@@ -1,10 +1,10 @@
-function indexOfIgnoreCase(s1, s2) {
+function indexOfIgnoreCase(str, subStr) {
   // Convert both strings to lowercase for case-insensitive comparison
   const lowerStr = str.toLowerCase();
   const lowerSubStr = subStr.toLowerCase();
 
   // Use indexOf to find the index of the substring in the string
-  // converted to lowercase
+  // converted to lowercase 
   return lowerStr.indexOf(lowerSubStr);
 }
 
